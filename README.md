@@ -38,14 +38,18 @@ by country and year.
   make a strong case for reviewing the discount policy
 - October is consistently the strongest month both years
 
-## Files in this repo
-- business_queries.sql — all 6 SQL queries with comments
-- screenshots — dashboard visuals
-- README — this file
+## Real Client Work (Anonymous)
 
-## About me
-I'm Muhammad Taha Qadri, a data analyst currently based in Italy 
-completing my Masters in Applied Computer Science (Big Data & ML).
-I work with SQL, Power BI, Excel and Python.
+5-page live Power BI reporting system built for a Dubai-based 
+business center group managing 3 properties.
+
+- Daily Report — expense vs revenue monitoring
+- Financial Report — P&L, closing balance, receivables
+- Leads Report — CRM pipeline from inquiry to booking  
+- Problems Report — issue tracking with resolution time
+- Occupancy Report — real-time property occupancy across centers
+
+Connected to live Google Sheets with hourly auto-refresh.
+Client data anonymised for confidentiality.
 
 [LinkedIn](https://linkedin.com/in/taahaaaa) — muhtahaqadri@gmail.com
