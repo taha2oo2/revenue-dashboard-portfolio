@@ -1,13 +1,51 @@
-# Revenue Performance Dashboard
+# Global Revenue Performance Dashboard
+A BI project I built to practice end-to-end data analysis — 
+from raw data all the way to a published interactive dashboard.
 
-**Tools:** SQL Server · Power BI · Excel  
-**Status:** 🔨 In Progress
+**Tools used:** SQL Server, Power BI, Looker Studio, Excel
 
-A complete end-to-end BI project analysing global revenue and profit performance 
-across markets, products and customer segments.
+## Live Dashboards
+- [Power BI Dashboard](https://app.powerbi.com/groups/me/reports/8f3d3e2e-b1c4-49fd-a134-2e46ab150e5a)
+- [Looker Studio Dashboard](https://datastudio.google.com/reporting/87b15bbf-b1a1-4e44-a863-d75af916c4f0)
 
-## Project Structure
-- /data — raw and cleaned dataset
-- /sql — business analysis queries  
-- /dashboard — Power BI screenshots
-- README.md — full documentation (coming soon)
+## What this project is about
+I took a financial dataset covering sales across 5 countries and 
+loaded it into SQL Server. The data had some formatting issues 
+(dollar signs in numeric columns, wrong data types) which I cleaned 
+before analysis.
+I then wrote SQL queries to answer business questions a manager 
+would actually care about — which markets are most profitable, 
+which products are driving revenue, whether discounts are actually 
+helping sales, and how revenue trended month by month.
+After the SQL analysis I built dashboards in both Power BI and 
+Looker Studio with interactive filters so you can slice the data 
+by country and year.
+
+## The SQL queries cover
+- Revenue and profit margin by country
+- Best and worst performing products
+- Monthly revenue trend across 2013 and 2014
+- Customer segment breakdown
+- Impact of discount levels on profit margins
+- Top country and product combinations
+
+## A few things I found interesting in the data
+- Germany has a better profit margin than the USA even though 
+  USA has higher total revenue
+- Paseo is by far the best product — nearly 3x the profit of 
+  the second best
+- Heavy discounts are clearly eating into margins, the numbers 
+  make a strong case for reviewing the discount policy
+- October is consistently the strongest month both years
+
+## Files in this repo
+- business_queries.sql — all 6 SQL queries with comments
+- screenshots — dashboard visuals
+- README — this file
+
+## About me
+I'm Muhammad Taha Qadri, a data analyst currently based in Italy 
+completing my Masters in Applied Computer Science (Big Data & ML).
+I work with SQL, Power BI, Excel and Python.
+
+[LinkedIn](https://linkedin.com/in/taahaaaa) — muhtahaqadri@gmail.com
